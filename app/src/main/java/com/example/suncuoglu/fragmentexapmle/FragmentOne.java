@@ -21,6 +21,8 @@ public class FragmentOne extends Fragment {
         View view = inflater.inflate(R.layout.fragment_one, container, false);
         editText = view.findViewById(R.id.name);
         submit = view.findViewById(R.id.submit_id);
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
